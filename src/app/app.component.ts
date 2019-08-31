@@ -7,9 +7,9 @@ import { findReadVarNames } from '@angular/compiler/src/output/output_ast';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  peso = 60;
+  peso ;
   pesot = 'Peso: ';
-  altura = 1.70;
+  altura ;
   alturat = 'Altura: ';
   foto = 'favicon.ico';
   cal = this.peso / (this.altura * this.altura)
