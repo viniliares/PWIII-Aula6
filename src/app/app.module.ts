@@ -5,11 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    PropertyBindingComponent
+    PropertyBindingComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,
